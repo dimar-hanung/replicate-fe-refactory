@@ -47,3 +47,26 @@ select {
 
   // height: 30px;
 }
+
+.footer-wrap {
+  width: 20%;
+  min-width: 180px;
+  font-family: "Montserrat", sans-serif;
+  a {
+    @apply text-sm;
+    display: block;
+    width: max-content;
+    line-height: 1.5rem;
+    transition: all ease 0.3s;
+
+    &:hover {
+      @apply text-primary-active;
+    }
+  }
+}
+a.hover-link {
+  transition: all ease 0.3s;
+  &:hover {
+    @apply text-primary-active;
+  }
+}

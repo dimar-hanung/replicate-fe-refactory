@@ -25,6 +25,8 @@ Vue.use(VueToast, {
 import PrimaryHeader from "@/components/PrimaryHeader.vue";
 Vue.component("primary-header", PrimaryHeader);
 
+import "./plugins/fontAwesome";
+
 Vue.config.productionTip = false;
 
 new Vue({

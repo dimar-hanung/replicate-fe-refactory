@@ -5,7 +5,7 @@
         class="bg__header absolute top-0 left-0 right-0 bottom-0 w-full h-full"
       ></div>
       <div
-        class="-z-1 absolute top-0 left-0 right-0 bottom-0 w-full h-full"
+        class="-z-1 absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-cover"
         :style="cssProps"
       ></div>
     </div>
@@ -35,8 +35,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss" scoped>
-.test {
-}
-</style>

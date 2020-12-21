@@ -5,13 +5,25 @@
     <div>
       <img :src="require('@/assets/static/' + logoImage + '')" />
     </div>
-    <div class="flex">
-      <router-link to="/">Home</router-link>
-      <router-link to="/courses">Courses</router-link>
-      <router-link to="/custom-trainings">Custom Trainings</router-link>
-      <router-link to="/case-studies">Case Studies</router-link>
-      <router-link to="/blog">Blog</router-link>
+    <div class="hidden lg:flex">
+      <router-link v-for="(item, id) in menuList" :key="id" :to="item.path">{{
+        item.text
+      }}</router-link>
     </div>
+    <div class="bars-icon grid lg:hidden" @click="isOpen = !isOpen">
+      <font-awesome v-if="!isOpen" :icon="['fa', 'bars']" />
+      <font-awesome v-else :icon="['fa', 'times']" />
+    </div>
+    <transition name="fade">
+      <div
+        class="navbar-mobile absolute block lg:hidden right-0 top-0 py-5 shadow w-full text-black h-auto "
+        v-if="isOpen"
+      >
+        <div v-for="(item, id) in menuList" :key="id">
+          <router-link :to="item.path">{{ item.text }}</router-link>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -25,13 +37,27 @@ export default {
   },
   data() {
     return {
-      key: "value"
+      isOpen: false,
+      menuList: [
+        { path: "/", text: "Home" },
+        { path: "/courses", text: "Courses" },
+        { path: "/custom-trainings", text: "Custom Trainings" },
+        { path: "/case-studies", text: "Case Studies" },
+        { path: "/blog", text: "Blog" }
+      ]
     };
   }
 };
 </script>
 
 <style lang="scss" scoped>
+.bars-icon {
+  @apply p-2 rounded absolute z-20 shadow bg-gray-700 place-items-center;
+  width: 30px;
+  height: 30px;
+  right: 10px;
+  top: 10px;
+}
 a {
   @apply px-4 font-semibold;
   font-family: "Montserrat", sans-serif;

@@ -2,8 +2,10 @@
   <div class="home">
     <primary-header backgroundImage="hero-homepage.jpg">
       <div class="container mx-auto w-max-1140">
-        <div class="w-3/5 px-20 pt-16">
-          <div class="text-5xl font-bold leading-none">
+        <div class="w-full md:w-3/5 px-5 md:px-20 pt-16">
+          <div
+            class="text-3xl sm:text-5xl font-bold leading-normal md:leading-none"
+          >
             Empowering <span class="text-primary-active">People</span> <br />
             Through Programming
           </div>
@@ -14,11 +16,11 @@
             Anda.
           </div>
         </div>
-        <div class="flex px-16 pt-4 pb-16">
-          <div class="btn-primary --solid font-medium mr-4">
+        <div class="flex flex-wrap px-5 md:px-16 pt-4 pb-16">
+          <div class="btn-primary --solid my-2 font-medium mr-4">
             Temukan Solusi Anda
           </div>
-          <div class="btn-primary font-medium">Tingkatkan SKill Anda</div>
+          <div class="btn-primary font-medium my-2">Tingkatkan SKill Anda</div>
         </div>
       </div>
       <primary-carousel />
@@ -27,8 +29,8 @@
       <div class="text-3xl font-bold text-center tracking-wider py-16">
         Apa Yang Refactory Dapat Bantu?
       </div>
-      <div class="flex">
-        <div class="w-1/2 text-center px-10">
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 text-center px-10 my-2">
           <div class="mx-auto">
             <img
               class="block mx-auto"
@@ -43,7 +45,7 @@
             juga dapat menyediakan tim yang menangani kebutuhan digital Anda.
           </div>
         </div>
-        <div class="w-1/2 text-center px-10">
+        <div class="w-full sm:w-1/2 text-center px-10 my-2">
           <div class="mx-auto">
             <img
               class="block mx-auto"

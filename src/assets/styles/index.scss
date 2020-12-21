@@ -12,9 +12,13 @@ select {
 }
 .btn-primary {
   @apply border border-primary-active px-8 py-1 rounded-full text-sm cursor-pointer;
+  transition: all ease 0.3s;
+  &:hover {
+    @apply bg-primary-active;
+  }
   &.--solid {
     @apply bg-primary-active;
-    transition: all ease 0.3s;
+
     &:hover {
       background: (lighten(#e48800, 10));
     }
@@ -35,6 +39,7 @@ select {
 }
 .img-grayscale img {
   filter: grayscale(1);
+
   width: 100%;
   max-width: 150px;
   cursor: pointer;
@@ -47,9 +52,14 @@ select {
 
   // height: 30px;
 }
-
+.navbar-mobile {
+  background: #ffffff47;
+  backdrop-filter: blur(5px);
+}
 .footer-wrap {
+  @apply pt-2;
   width: 20%;
+  margin: 0 auto;
   min-width: 180px;
   font-family: "Montserrat", sans-serif;
   a {

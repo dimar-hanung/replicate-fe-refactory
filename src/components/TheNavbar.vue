@@ -11,8 +11,8 @@
       }}</router-link>
     </div>
     <div class="bars-icon grid lg:hidden" @click="isOpen = !isOpen">
-      <font-awesome v-if="!isOpen" :icon="['fa', 'bars']" />
-      <font-awesome v-else :icon="['fa', 'times']" />
+      <font-awesome class="text-lg" v-if="!isOpen" :icon="['fa', 'bars']" />
+      <font-awesome class="text-lg" v-else :icon="['fa', 'times']" />
     </div>
     <transition name="fade">
       <div
@@ -53,8 +53,8 @@ export default {
 <style lang="scss" scoped>
 .bars-icon {
   @apply p-2 rounded absolute z-20 shadow bg-gray-700 place-items-center;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   right: 10px;
   top: 10px;
 }

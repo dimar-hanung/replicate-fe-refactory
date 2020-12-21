@@ -3,6 +3,9 @@
     <the-navbar logoImage="refactory-hd.png" />
     <router-view />
     <the-footer />
+    <div class="whatsapp-button">
+      <font-awesome class="text-2xl text-white" :icon="['fab', 'whatsapp']" />
+    </div>
   </div>
 </template>
 <script>

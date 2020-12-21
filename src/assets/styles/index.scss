@@ -1,7 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.btn {
-  @apply bg-red-500 text-white;
-  padding: 5px;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+html,
+body,
+button,
+input,
+select {
+  font-family: "Raleway", Sans-serif;
+}
+.btn-primary {
+  @apply border border-primary-active px-8 py-1 rounded-full text-sm cursor-pointer;
+  &.--solid {
+    @apply bg-primary-active;
+    transition: all ease 0.3s;
+    &:hover {
+      background: (lighten(#e48800, 10));
+    }
+  }
+}
+.router-link-exact-active {
+  @apply text-primary-active;
+}
+.bg-carousel {
+  background: rgba(0, 75, 102, 0.5);
+}
+.swiper-slide {
+  place-self: center;
+}
+.img-grayscale {
+  @apply px-6 py-4 mx-auto;
+  place-self: center;
+}
+.img-grayscale img {
+  filter: grayscale(1);
+  width: 100%;
+  max-width: 150px;
+  cursor: pointer;
+  place-self: center;
+  display: block;
+  transition: all ease 0.3s;
+  &:hover {
+    filter: grayscale(0);
+  }
+
+  // height: 30px;
 }

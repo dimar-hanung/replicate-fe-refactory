@@ -66,4 +66,7 @@ a {
     @apply text-primary-active;
   }
 }
+a.router-link-exact-active {
+  @apply text-primary-active;
+}
 </style>

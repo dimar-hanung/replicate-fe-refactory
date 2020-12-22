@@ -6,6 +6,10 @@
 - [ ] Detail Course
 - [ ] Blog (40%)
 
+### 🎬 Live Demo
+
+https://refactory-web-replicate.web.app/
+
 ### 🕛 Estimasi Pengerjaan
 
 - 2 hari Mulai `21-12-2020` pukul 7 malam hingga `23-12-2020` pukul 3 pagi

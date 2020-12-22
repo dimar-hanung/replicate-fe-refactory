@@ -10,7 +10,7 @@ import VueAwesomeSwiper from "vue-awesome-swiper";
 import Swiper, { Pagination, Autoplay } from "swiper";
 Swiper.use([Pagination, Autoplay]);
 // import style (>= Swiper 6.x)
-import "swiper/swiper-bundle.css";
+import "@/assets/styles/package/swiper-bundle.css";
 Vue.use(VueAwesomeSwiper /* { default options with global component } */);
 
 // start - Vue Toast Message

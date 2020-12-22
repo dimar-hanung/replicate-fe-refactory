@@ -20,12 +20,8 @@ module.exports = {
           gray: "#F4F5F6"
         }
       },
-      text: {
-        14: "14px"
-      },
-      width: {
-        "30": "30px",
-        "40": "40px"
+      boxShadow: {
+        "3xl": "0px 12px 20px 0px rgba(223, 223, 223, 0.8)"
       }
     }
   },
@@ -42,6 +38,12 @@ module.exports = {
         },
         ".w-max-1140": {
           maxWidth: "1140px"
+        },
+        ".w-max-540": {
+          maxWidth: "540px"
+        },
+        ".bg-banner": {
+          backgroundImage: "linear-gradient(90deg, #127BCA 0%, #35B4AE 100%)"
         }
       };
 

@@ -2,7 +2,7 @@
   <div>
     <div class="bg-secondary-dark pt-4">
       <div class="bg-secondary-blue text-white mt-20">
-        <div class="sub-navbar container mx-auto flex justify-center">
+        <div class="sub-navbar container mx-auto flex flex-wrap justify-center">
           <a href="#" class="sub-navbar__item">Blog</a>
           <a href="#" class="sub-navbar__item">Engineering</a>
           <a href="#" class="sub-navbar__item">Profile</a>
@@ -15,11 +15,11 @@
       </div>
     </div>
     <div>
-      <div class="container mx-auto flex">
-        <div class="w-3/5">
+      <div class="container mx-auto flex flex-wrap">
+        <div class="w-full sm:w-3/5">
           <img src="@/assets/images/blog-menu.jpg" alt="" />
         </div>
-        <div class="w-2/5 p-8">
+        <div class="w-full sm:w-2/5 p-8">
           <div class="text-primary-active">HUBUNGKAN DENGAN KAMI</div>
           <div class="font-bold text-2xl">Ikuti Refactory</div>
           <div class="social-media-sidebar">

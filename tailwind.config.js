@@ -14,7 +14,8 @@ module.exports = {
         primary: {
           active: "#e48800",
           gray: "rgba(11, 22, 43, 0.6)",
-          dark: "#0c162a"
+          dark: "#0c162a",
+          disabled: "#99BBEC"
         },
         secondary: {
           active: "#5CA3BD",

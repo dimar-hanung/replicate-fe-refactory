@@ -1,7 +1,13 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import Vue from "vue";
-import { faBars, faTimes, faStar } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faTimes,
+  faStar,
+  faEye,
+  faEyeSlash
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faWhatsapp,
   faLinkedin,
@@ -17,6 +23,8 @@ library.add(
   faLinkedin,
   faFacebook,
   faInstagram,
-  faYoutube
+  faYoutube,
+  faEye,
+  faEyeSlash
 );
 Vue.component("font-awesome", FontAwesomeIcon);

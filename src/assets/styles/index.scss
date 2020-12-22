@@ -94,3 +94,7 @@ a.hover-link {
   bottom: 15px;
   right: 15px;
 }
+button:disabled {
+  @apply bg-primary-disabled;
+  cursor: not-allowed !important;
+}

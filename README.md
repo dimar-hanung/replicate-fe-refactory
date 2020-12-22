@@ -1,5 +1,6 @@
 ## Refactory Replicate Web
 
+- [ ] 50%, baru styling, belum ada user dummy
 - [x] Home
 - [x] Course
 - [ ] Detail Course

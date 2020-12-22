@@ -6,6 +6,8 @@
 - [ ] Detail Course
 - [ ] Blog (40%)
 
+- Disini `.env` sengaja saya push, kalau real case nya jangan, ini karna dummy semua
+
 ### 🎬 Live Demo
 
 https://refactory-web-replicate.web.app/

@@ -10,6 +10,7 @@
 
 - 2 hari Mulai `21-12-2020` pukul 7 malam hingga `23-12-2020` pukul 3 pagi
 - Waktu pengerjaan terpotong 50% karena sedang mengejar deadline lain
+- lama pada saat init, seperti inisialisasi auth, enkripsi cache, namun belum kesampaian, karena waktu hampir habis
 
 ### 👨‍💻 Teknologi
 

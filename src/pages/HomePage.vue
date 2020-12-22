@@ -161,10 +161,21 @@
 
 <script>
 import PrimaryCarousel from "@/components/PrimaryCarousel.vue";
+import { mapState, mapActions } from "vuex";
 export default {
   name: "Home",
   components: {
     PrimaryCarousel
+  },
+  computed: {
+    ...mapState("homePage", ["dataParter"])
+  },
+  methods: {
+    ...mapActions("homePage", ["setDataPartner"])
+  },
+  mounted() {
+    console.log(process.env.VUE_APP_BASE_URL);
+    this.setDataPartner();
   }
 };
 </script>

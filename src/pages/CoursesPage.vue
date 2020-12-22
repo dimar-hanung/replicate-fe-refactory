@@ -12,17 +12,17 @@
           engaging curriculum backed by real-world software projects ready to
           boost your career.
         </div>
-        <div class="flex">
-          <div class="font-bold btn-primary --solid mr-4">
+        <div class="flex flex-wrap justify-center">
+          <div class="font-bold btn-primary mt-3 --solid mr-0 sm:mr-4">
             Masuk & Memulai Belajar
           </div>
-          <div class="font-bold btn-primary">Daftar Sekarang</div>
+          <div class="font-bold btn-primary mt-3">Daftar Sekarang</div>
         </div>
       </div>
     </primary-header>
-    <div class="container w-max-1140 mx-auto pt-24 px-16 pb-16">
-      <div class="flex">
-        <div class="w-1/4">
+    <div class="container w-max-1140 mx-auto pt-24 px-5 sm:px-16 pb-16">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/4">
           <div class="text-3xl">
             Bagaimana Refactory Course membantu meningkatkan skill anda.
           </div>
@@ -32,14 +32,14 @@
             </div>
           </div>
         </div>
-        <div class="w-3/4 pl-56">
+        <div class="w-full md:w-3/4 pl-0 md:pl-56">
           <img src="@/assets/static/content/courses-1.png" alt="" />
         </div>
       </div>
     </div>
     <div class="bg-secondary-gray">
-      <div class="flex container w-max-1140 mx-auto">
-        <div class="w-1/2 px-16">
+      <div class="flex flex-wrap container w-max-1140 mx-auto">
+        <div class="w-full md:w-1/2 px-16 order-2 md:order-1">
           <div class="text-2xl font-bold pb-4 pt-16">
             Kursus pemrograman untuk semua orang tanpa terkecuali
           </div>
@@ -72,7 +72,7 @@
             Pelajari Lebih
           </div>
         </div>
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2 order-1 md:order-2">
           <img src="@/assets/static/content/courses-2.jpg" alt="" />
         </div>
       </div>
@@ -85,10 +85,10 @@
         </div>
       </div>
     </div>
-    <div class="pt-4 px-32 container w-max-1140 mx-auto pb-16">
-      <div class="flex">
-        <div class="px-4 w-1/2">
-          <div class="p-8 shadow-3xl">
+    <div class="pt-4 px-4 sm:px-24 md:px-32 container w-max-1140 mx-auto pb-16">
+      <div class="flex flex-wrap">
+        <div class="px-2 md:px-4 w-full md:w-1/2">
+          <div class="p-2 md:p-8 shadow-3xl">
             <div>
               <img src="@/assets/static/content/courses-3.jpg" alt="" />
             </div>
@@ -115,8 +115,8 @@
             </div>
           </div>
         </div>
-        <div class="px-4 w-1/2 ">
-          <div class="p-8 shadow-3xl h-full">
+        <div class="px-2 md:px-4 w-full md:w-1/2 ">
+          <div class="p-2 md:p-8 shadow-3xl h-full">
             <div>
               <img src="@/assets/static/content/courses-4.jpg" alt="" />
             </div>
@@ -147,7 +147,9 @@
         </div>
       </div>
     </div>
-    <div class="py-16 text-center flex justify-center bg-banner text-white">
+    <div
+      class="py-16 text-center flex flex-wrap justify-center bg-banner text-white"
+    >
       <div class="pr-4 text-2xl">
         Ready to start Learning?
       </div>

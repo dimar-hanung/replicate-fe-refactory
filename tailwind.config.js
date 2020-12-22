@@ -17,7 +17,10 @@ module.exports = {
           dark: "#0c162a"
         },
         secondary: {
-          gray: "#F4F5F6"
+          active: "#5CA3BD",
+          gray: "#F4F5F6",
+          dark: "#003547",
+          blue: "#005978"
         }
       },
       boxShadow: {

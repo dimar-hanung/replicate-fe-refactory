@@ -1,6 +1,6 @@
 ## Refactory Replicate Web
 
-- [ ] 50%, baru styling, belum ada user dummy
+- [ ] Login 50%, baru styling, belum ada user dummy, route ada di /login
 - [x] Home
 - [x] Course
 - [ ] Detail Course
